@@ -1,0 +1,11 @@
+{
+  "name": "react-summit-2025",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Roe <daniel@roe.dev>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.22.0"
+}

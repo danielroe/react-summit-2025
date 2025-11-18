@@ -1,0 +1,7 @@
+node_modules
+.nitro
+.nuxt
+.output
+dist
+.vscode
+.vercel
