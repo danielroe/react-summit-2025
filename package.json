@@ -8,7 +8,8 @@
     "summit": "./bin/cli.ts"
   },
   "scripts": {
-    "summit": "node ./bin/cli.ts"
+    "summit": "node ./bin/cli.ts",
+    "build": "pnpm summit build"
   },
   "license": "MIT",
   "packageManager": "pnpm@10.22.0",
