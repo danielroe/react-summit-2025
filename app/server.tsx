@@ -2,7 +2,7 @@ import { renderToString } from 'react-dom/server'
 import { App } from './app'
 
 export default defineEventHandler(async event => {
-  const storage = useStorage('root')
+  const storage = useStorage('templates')
   const template = await storage.getItem<string>('index.html')
 
   const html = renderToString(<App />)

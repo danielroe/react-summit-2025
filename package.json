@@ -1,20 +1,25 @@
 {
-  "name": "react-summit-2025",
-  "private": true,
+  "name": "summit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "summit": "./bin/cli.ts"
   },
-  "author": "Daniel Roe <daniel@roe.dev>",
+  "scripts": {
+    "summit": "node ./bin/cli.ts"
+  },
   "license": "MIT",
   "packageManager": "pnpm@10.22.0",
   "dependencies": {
     "@picocss/pico": "^2.1.1",
+    "@types/node": "^24.10.1",
     "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",
     "c12": "^3.3.2",
     "citty": "^0.1.6",
-    "h3": "1",
+    "h3": "1.15.4",
     "nitropack": "^2.12.9",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
